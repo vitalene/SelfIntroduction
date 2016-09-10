@@ -16,19 +16,19 @@ class ViewController2: UIViewController {
         switch segue.identifier! {
         case "Interests":
             let destination = segue.destination as! ViewController3
-            destination.boxOfText = "Interests was here!"
+            destination.boxOfText = "propane and propane accessories"
             print("did interests setup")
         case "Hometown":
             let destination = segue.destination as! ViewController3
-            destination.boxOfText = "Hometown was here!"
+            destination.boxOfText = "Arlen, Texas"
             print("did hometown setup")
         case "Languages":
             let destination = segue.destination as! ViewController3
-            destination.boxOfText = "Languages was here"
+            destination.boxOfText = "Objective C and Swift"
             print("did languages setup")
         case "TV":
             let destination = segue.destination as! ViewController3
-            destination.boxOfText = "tv was here"
+            destination.boxOfText = "King of the Hill.  "
             print("did tv setup")
         case "MadLibs":
         
